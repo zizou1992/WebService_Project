@@ -1,0 +1,82 @@
+D:\Project C#\XDPM_Project\WinTier\bin\Debug\WinTier.exe.config
+D:\Project C#\XDPM_Project\WinTier\bin\Debug\WinTier.exe
+D:\Project C#\XDPM_Project\WinTier\bin\Debug\WinTier.pdb
+D:\Project C#\XDPM_Project\WinTier\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Project C#\XDPM_Project\WinTier\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Project C#\XDPM_Project\WinTier\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Project C#\XDPM_Project\WinTier\bin\Debug\Microsoft.Practices.Unity.dll
+D:\Project C#\XDPM_Project\WinTier\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+D:\Project C#\XDPM_Project\WinTier\obj\Debug\WinTier.FormDanhMucSanPham.resources
+D:\Project C#\XDPM_Project\WinTier\obj\Debug\WinTier.FormNhapHang.resources
+D:\Project C#\XDPM_Project\WinTier\obj\Debug\WinTier.MainForm.resources
+D:\Project C#\XDPM_Project\WinTier\obj\Debug\WinTier.Properties.Resources.resources
+D:\Project C#\XDPM_Project\WinTier\obj\Debug\WinTier.csproj.GenerateResource.Cache
+D:\Project C#\XDPM_Project\WinTier\obj\Debug\WinTier.exe
+D:\Project C#\XDPM_Project\WinTier\obj\Debug\WinTier.pdb
+D:\Project C#\XDPM_Project\WinTier\obj\Debug\WinTier.FormDanhMucHoaDon.resources
+D:\Project C#\XDPM_Project\WinTier\obj\Debug\WinTier.FormChiTietDonHang.resources
+D:\Project C#\XDPM_Project\WinTier\obj\Debug\WinTier.FormDanhMucPhieuNhap.resources
+D:\Project C#\XDPM_Project\WinTier\obj\Debug\WinTier.FormThongKeTonKho.resources
+D:\Project C#\XDPM_Project\WinTier\obj\Debug\WinTier.csprojResolveAssemblyReference.cache
+D:\Project C#\XDPM_Project\WinTier\obj\Debug\WinTier.FormThongKeDoanhThu.resources
+E:\hoc tap\PT PHAN MEM MO HINH PHAN LOP\Do an lon\XDPM_Project_3\XDPM_Project_3\WinTier\bin\Debug\WinTier.exe.config
+E:\hoc tap\PT PHAN MEM MO HINH PHAN LOP\Do an lon\XDPM_Project_3\XDPM_Project_3\WinTier\obj\Debug\WinTier.exe
+E:\hoc tap\PT PHAN MEM MO HINH PHAN LOP\Do an lon\XDPM_Project_3\XDPM_Project_3\WinTier\obj\Debug\WinTier.pdb
+E:\hoc tap\PT PHAN MEM MO HINH PHAN LOP\Do an lon\XDPM_Project_3\XDPM_Project_3\WinTier\bin\Debug\WinTier.exe
+E:\hoc tap\PT PHAN MEM MO HINH PHAN LOP\Do an lon\XDPM_Project_3\XDPM_Project_3\WinTier\bin\Debug\WinTier.pdb
+E:\hoc tap\PT PHAN MEM MO HINH PHAN LOP\Do an lon\XDPM_Project_3\XDPM_Project_3\WinTier\obj\Debug\WinTier.csprojResolveAssemblyReference.cache
+E:\hoc tap\PT PHAN MEM MO HINH PHAN LOP\Do an lon\XDPM_Project_3\XDPM_Project_3\WinTier\obj\Debug\WinTier.FormChiTietDonHang.resources
+E:\hoc tap\PT PHAN MEM MO HINH PHAN LOP\Do an lon\XDPM_Project_3\XDPM_Project_3\WinTier\obj\Debug\WinTier.FormDanhMucHoaDon.resources
+E:\hoc tap\PT PHAN MEM MO HINH PHAN LOP\Do an lon\XDPM_Project_3\XDPM_Project_3\WinTier\obj\Debug\WinTier.FormDanhMucPhieuNhap.resources
+E:\hoc tap\PT PHAN MEM MO HINH PHAN LOP\Do an lon\XDPM_Project_3\XDPM_Project_3\WinTier\obj\Debug\WinTier.FormDanhMucSanPham.resources
+E:\hoc tap\PT PHAN MEM MO HINH PHAN LOP\Do an lon\XDPM_Project_3\XDPM_Project_3\WinTier\obj\Debug\WinTier.FormNhapHang.resources
+E:\hoc tap\PT PHAN MEM MO HINH PHAN LOP\Do an lon\XDPM_Project_3\XDPM_Project_3\WinTier\obj\Debug\WinTier.FormThongKeDoanhThu.resources
+E:\hoc tap\PT PHAN MEM MO HINH PHAN LOP\Do an lon\XDPM_Project_3\XDPM_Project_3\WinTier\obj\Debug\WinTier.FormThongKeTonKho.resources
+E:\hoc tap\PT PHAN MEM MO HINH PHAN LOP\Do an lon\XDPM_Project_3\XDPM_Project_3\WinTier\obj\Debug\WinTier.MainForm.resources
+E:\hoc tap\PT PHAN MEM MO HINH PHAN LOP\Do an lon\XDPM_Project_3\XDPM_Project_3\WinTier\obj\Debug\WinTier.Properties.Resources.resources
+E:\hoc tap\PT PHAN MEM MO HINH PHAN LOP\Do an lon\XDPM_Project_3\XDPM_Project_3\WinTier\obj\Debug\WinTier.csproj.GenerateResource.Cache
+E:\hoc tap\PT PHAN MEM MO HINH PHAN LOP\Do an lon\XDPM_Project_3\XDPM_Project_3\WinTier\obj\Debug\WinTier.frmBaoCaoTonKho.resources
+E:\hoc tap\PT PHAN MEM MO HINH PHAN LOP\Do an lon\XDPM_Project_3\XDPM_Project_3\WinTier\obj\Debug\WinTier.FormDanhSachHoaDon.resources
+E:\hoc tap\PT PHAN MEM MO HINH PHAN LOP\Do an lon\XDPM_Project_3\XDPM_Project_3\WinTier\obj\Debug\WinTier.FormBaoCaoDoanhThu.resources
+E:\hoc tap\PT PHAN MEM MO HINH PHAN LOP\Do an lon\XDPM_Project_3\XDPM_Project_3\WinTier\obj\Debug\WinTier.FormBaoCaoPhieuNhap.resources
+D:\Download\DOAN\DOAN\XDPM_Project_3\XDPM_Project_3\WinTier\bin\Debug\WinTier.exe.config
+D:\Download\DOAN\DOAN\XDPM_Project_3\XDPM_Project_3\WinTier\obj\Debug\WinTier.exe
+D:\Download\DOAN\DOAN\XDPM_Project_3\XDPM_Project_3\WinTier\obj\Debug\WinTier.pdb
+D:\Download\DOAN\DOAN\XDPM_Project_3\XDPM_Project_3\WinTier\bin\Debug\WinTier.exe
+D:\Download\DOAN\DOAN\XDPM_Project_3\XDPM_Project_3\WinTier\bin\Debug\WinTier.pdb
+D:\Download\DOAN\DOAN\XDPM_Project_3\XDPM_Project_3\WinTier\obj\Debug\WinTier.FormBaoCaoDoanhThu.resources
+D:\Download\DOAN\DOAN\XDPM_Project_3\XDPM_Project_3\WinTier\obj\Debug\WinTier.FormBaoCaoPhieuNhap.resources
+D:\Download\DOAN\DOAN\XDPM_Project_3\XDPM_Project_3\WinTier\obj\Debug\WinTier.FormDanhSachHoaDon.resources
+D:\Download\DOAN\DOAN\XDPM_Project_3\XDPM_Project_3\WinTier\obj\Debug\WinTier.FormChiTietDonHang.resources
+D:\Download\DOAN\DOAN\XDPM_Project_3\XDPM_Project_3\WinTier\obj\Debug\WinTier.FormDanhMucHoaDon.resources
+D:\Download\DOAN\DOAN\XDPM_Project_3\XDPM_Project_3\WinTier\obj\Debug\WinTier.FormDanhMucPhieuNhap.resources
+D:\Download\DOAN\DOAN\XDPM_Project_3\XDPM_Project_3\WinTier\obj\Debug\WinTier.FormDanhMucSanPham.resources
+D:\Download\DOAN\DOAN\XDPM_Project_3\XDPM_Project_3\WinTier\obj\Debug\WinTier.FormNhapHang.resources
+D:\Download\DOAN\DOAN\XDPM_Project_3\XDPM_Project_3\WinTier\obj\Debug\WinTier.FormThongKeDoanhThu.resources
+D:\Download\DOAN\DOAN\XDPM_Project_3\XDPM_Project_3\WinTier\obj\Debug\WinTier.FormThongKeTonKho.resources
+D:\Download\DOAN\DOAN\XDPM_Project_3\XDPM_Project_3\WinTier\obj\Debug\WinTier.frmBaoCaoTonKho.resources
+D:\Download\DOAN\DOAN\XDPM_Project_3\XDPM_Project_3\WinTier\obj\Debug\WinTier.MainForm.resources
+D:\Download\DOAN\DOAN\XDPM_Project_3\XDPM_Project_3\WinTier\obj\Debug\WinTier.Properties.Resources.resources
+D:\Download\DOAN\DOAN\XDPM_Project_3\XDPM_Project_3\WinTier\obj\Debug\WinTier.csproj.GenerateResource.Cache
+D:\Download\DOAN\DOAN\XDPM_Project_3\XDPM_Project_3\WinTier\obj\Debug\WinTier.csprojResolveAssemblyReference.cache
+D:\Download\XDPM_Project_Final\XDPM_Project_3\XDPM_Project_3\WinTier\bin\Debug\WinTier.exe.config
+D:\Download\XDPM_Project_Final\XDPM_Project_3\XDPM_Project_3\WinTier\bin\Debug\WinTier.exe
+D:\Download\XDPM_Project_Final\XDPM_Project_3\XDPM_Project_3\WinTier\bin\Debug\WinTier.pdb
+D:\Download\XDPM_Project_Final\XDPM_Project_3\XDPM_Project_3\WinTier\obj\Debug\WinTier.FormBaoCaoDoanhThu.resources
+D:\Download\XDPM_Project_Final\XDPM_Project_3\XDPM_Project_3\WinTier\obj\Debug\WinTier.FormBaoCaoPhieuNhap.resources
+D:\Download\XDPM_Project_Final\XDPM_Project_3\XDPM_Project_3\WinTier\obj\Debug\WinTier.FormDanhSachHoaDon.resources
+D:\Download\XDPM_Project_Final\XDPM_Project_3\XDPM_Project_3\WinTier\obj\Debug\WinTier.FormChiTietDonHang.resources
+D:\Download\XDPM_Project_Final\XDPM_Project_3\XDPM_Project_3\WinTier\obj\Debug\WinTier.FormDanhMucHoaDon.resources
+D:\Download\XDPM_Project_Final\XDPM_Project_3\XDPM_Project_3\WinTier\obj\Debug\WinTier.FormDanhMucPhieuNhap.resources
+D:\Download\XDPM_Project_Final\XDPM_Project_3\XDPM_Project_3\WinTier\obj\Debug\WinTier.FormDanhMucSanPham.resources
+D:\Download\XDPM_Project_Final\XDPM_Project_3\XDPM_Project_3\WinTier\obj\Debug\WinTier.FormNhapHang.resources
+D:\Download\XDPM_Project_Final\XDPM_Project_3\XDPM_Project_3\WinTier\obj\Debug\WinTier.FormThongKeDoanhThu.resources
+D:\Download\XDPM_Project_Final\XDPM_Project_3\XDPM_Project_3\WinTier\obj\Debug\WinTier.FormThongKeTonKho.resources
+D:\Download\XDPM_Project_Final\XDPM_Project_3\XDPM_Project_3\WinTier\obj\Debug\WinTier.frmBaoCaoTonKho.resources
+D:\Download\XDPM_Project_Final\XDPM_Project_3\XDPM_Project_3\WinTier\obj\Debug\WinTier.MainForm.resources
+D:\Download\XDPM_Project_Final\XDPM_Project_3\XDPM_Project_3\WinTier\obj\Debug\WinTier.Properties.Resources.resources
+D:\Download\XDPM_Project_Final\XDPM_Project_3\XDPM_Project_3\WinTier\obj\Debug\WinTier.csproj.GenerateResource.Cache
+D:\Download\XDPM_Project_Final\XDPM_Project_3\XDPM_Project_3\WinTier\obj\Debug\WinTier.exe
+D:\Download\XDPM_Project_Final\XDPM_Project_3\XDPM_Project_3\WinTier\obj\Debug\WinTier.pdb
+D:\Download\XDPM_Project_Final\XDPM_Project_3\XDPM_Project_3\WinTier\obj\Debug\WinTier.FormDanhSachUser.resources
+D:\Download\XDPM_Project_Final\XDPM_Project_3\XDPM_Project_3\WinTier\obj\Debug\WinTier.csprojResolveAssemblyReference.cache

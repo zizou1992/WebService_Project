@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="DonDatHangService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import namespace="http://tempuri.org/" />
+      <xsd:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import namespace="http://schemas.datacontract.org/2004/07/WcfServiceLibrary" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IDonDatHangService_GetDonDatHangById_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetDonDatHangById" />
+  </wsdl:message>
+  <wsdl:message name="IDonDatHangService_GetDonDatHangById_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDonDatHangByIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDonDatHangService_GetAllDonDatHang_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllDonDatHang" />
+  </wsdl:message>
+  <wsdl:message name="IDonDatHangService_GetAllDonDatHang_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllDonDatHangResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDonDatHangService_InsertDonDatHang_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertDonDatHang" />
+  </wsdl:message>
+  <wsdl:message name="IDonDatHangService_InsertDonDatHang_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertDonDatHangResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDonDatHangService_UpdateDonDatHang_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateDonDatHang" />
+  </wsdl:message>
+  <wsdl:message name="IDonDatHangService_UpdateDonDatHang_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateDonDatHangResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDonDatHangService_DeleteDonDatHang_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteDonDatHang" />
+  </wsdl:message>
+  <wsdl:message name="IDonDatHangService_DeleteDonDatHang_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteDonDatHangResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDonDatHangService_GetMaxDonHangId_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetMaxDonHangId" />
+  </wsdl:message>
+  <wsdl:message name="IDonDatHangService_GetMaxDonHangId_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetMaxDonHangIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDonDatHangService_ThongKeDoanhThu_InputMessage">
+    <wsdl:part name="parameters" element="tns:ThongKeDoanhThu" />
+  </wsdl:message>
+  <wsdl:message name="IDonDatHangService_ThongKeDoanhThu_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ThongKeDoanhThuResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IDonDatHangService">
+    <wsdl:operation name="GetDonDatHangById">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDonDatHangService/GetDonDatHangById" message="tns:IDonDatHangService_GetDonDatHangById_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDonDatHangService/GetDonDatHangByIdResponse" message="tns:IDonDatHangService_GetDonDatHangById_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllDonDatHang">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDonDatHangService/GetAllDonDatHang" message="tns:IDonDatHangService_GetAllDonDatHang_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDonDatHangService/GetAllDonDatHangResponse" message="tns:IDonDatHangService_GetAllDonDatHang_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertDonDatHang">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDonDatHangService/InsertDonDatHang" message="tns:IDonDatHangService_InsertDonDatHang_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDonDatHangService/InsertDonDatHangResponse" message="tns:IDonDatHangService_InsertDonDatHang_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateDonDatHang">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDonDatHangService/UpdateDonDatHang" message="tns:IDonDatHangService_UpdateDonDatHang_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDonDatHangService/UpdateDonDatHangResponse" message="tns:IDonDatHangService_UpdateDonDatHang_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteDonDatHang">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDonDatHangService/DeleteDonDatHang" message="tns:IDonDatHangService_DeleteDonDatHang_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDonDatHangService/DeleteDonDatHangResponse" message="tns:IDonDatHangService_DeleteDonDatHang_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMaxDonHangId">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDonDatHangService/GetMaxDonHangId" message="tns:IDonDatHangService_GetMaxDonHangId_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDonDatHangService/GetMaxDonHangIdResponse" message="tns:IDonDatHangService_GetMaxDonHangId_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ThongKeDoanhThu">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDonDatHangService/ThongKeDoanhThu" message="tns:IDonDatHangService_ThongKeDoanhThu_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDonDatHangService/ThongKeDoanhThuResponse" message="tns:IDonDatHangService_ThongKeDoanhThu_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IDonDatHangService" type="tns:IDonDatHangService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetDonDatHangById">
+      <soap:operation soapAction="http://tempuri.org/IDonDatHangService/GetDonDatHangById" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllDonDatHang">
+      <soap:operation soapAction="http://tempuri.org/IDonDatHangService/GetAllDonDatHang" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertDonDatHang">
+      <soap:operation soapAction="http://tempuri.org/IDonDatHangService/InsertDonDatHang" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateDonDatHang">
+      <soap:operation soapAction="http://tempuri.org/IDonDatHangService/UpdateDonDatHang" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteDonDatHang">
+      <soap:operation soapAction="http://tempuri.org/IDonDatHangService/DeleteDonDatHang" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetMaxDonHangId">
+      <soap:operation soapAction="http://tempuri.org/IDonDatHangService/GetMaxDonHangId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ThongKeDoanhThu">
+      <soap:operation soapAction="http://tempuri.org/IDonDatHangService/ThongKeDoanhThu" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="DonDatHangService">
+    <wsdl:port name="BasicHttpBinding_IDonDatHangService" binding="tns:BasicHttpBinding_IDonDatHangService">
+      <soap:address location="http://localhost:8733/Design_Time_Addresses/WcfServiceLibrary/DonDatHangService/" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

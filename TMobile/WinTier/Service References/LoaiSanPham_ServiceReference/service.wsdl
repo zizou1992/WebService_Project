@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="LoaiSanPhamService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import namespace="http://tempuri.org/" />
+      <xsd:import namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import namespace="http://schemas.datacontract.org/2004/07/WcfServiceLibrary" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="ILoaiSanPhamService_GetLoaiSanPhamById_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetLoaiSanPhamById" />
+  </wsdl:message>
+  <wsdl:message name="ILoaiSanPhamService_GetLoaiSanPhamById_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetLoaiSanPhamByIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILoaiSanPhamService_GetAllLoaiSanPham_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllLoaiSanPham" />
+  </wsdl:message>
+  <wsdl:message name="ILoaiSanPhamService_GetAllLoaiSanPham_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllLoaiSanPhamResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILoaiSanPhamService_InsertLoaiSanPham_InputMessage">
+    <wsdl:part name="parameters" element="tns:InsertLoaiSanPham" />
+  </wsdl:message>
+  <wsdl:message name="ILoaiSanPhamService_InsertLoaiSanPham_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InsertLoaiSanPhamResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILoaiSanPhamService_UpdateLoaiSanPham_InputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateLoaiSanPham" />
+  </wsdl:message>
+  <wsdl:message name="ILoaiSanPhamService_UpdateLoaiSanPham_OutputMessage">
+    <wsdl:part name="parameters" element="tns:UpdateLoaiSanPhamResponse" />
+  </wsdl:message>
+  <wsdl:message name="ILoaiSanPhamService_DeleteLoaiSanPham_InputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteLoaiSanPham" />
+  </wsdl:message>
+  <wsdl:message name="ILoaiSanPhamService_DeleteLoaiSanPham_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DeleteLoaiSanPhamResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ILoaiSanPhamService">
+    <wsdl:operation name="GetLoaiSanPhamById">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILoaiSanPhamService/GetLoaiSanPhamById" message="tns:ILoaiSanPhamService_GetLoaiSanPhamById_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILoaiSanPhamService/GetLoaiSanPhamByIdResponse" message="tns:ILoaiSanPhamService_GetLoaiSanPhamById_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllLoaiSanPham">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILoaiSanPhamService/GetAllLoaiSanPham" message="tns:ILoaiSanPhamService_GetAllLoaiSanPham_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILoaiSanPhamService/GetAllLoaiSanPhamResponse" message="tns:ILoaiSanPhamService_GetAllLoaiSanPham_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InsertLoaiSanPham">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILoaiSanPhamService/InsertLoaiSanPham" message="tns:ILoaiSanPhamService_InsertLoaiSanPham_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILoaiSanPhamService/InsertLoaiSanPhamResponse" message="tns:ILoaiSanPhamService_InsertLoaiSanPham_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="UpdateLoaiSanPham">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILoaiSanPhamService/UpdateLoaiSanPham" message="tns:ILoaiSanPhamService_UpdateLoaiSanPham_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILoaiSanPhamService/UpdateLoaiSanPhamResponse" message="tns:ILoaiSanPhamService_UpdateLoaiSanPham_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="DeleteLoaiSanPham">
+      <wsdl:input wsaw:Action="http://tempuri.org/ILoaiSanPhamService/DeleteLoaiSanPham" message="tns:ILoaiSanPhamService_DeleteLoaiSanPham_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ILoaiSanPhamService/DeleteLoaiSanPhamResponse" message="tns:ILoaiSanPhamService_DeleteLoaiSanPham_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_ILoaiSanPhamService" type="tns:ILoaiSanPhamService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetLoaiSanPhamById">
+      <soap:operation soapAction="http://tempuri.org/ILoaiSanPhamService/GetLoaiSanPhamById" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetAllLoaiSanPham">
+      <soap:operation soapAction="http://tempuri.org/ILoaiSanPhamService/GetAllLoaiSanPham" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InsertLoaiSanPham">
+      <soap:operation soapAction="http://tempuri.org/ILoaiSanPhamService/InsertLoaiSanPham" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="UpdateLoaiSanPham">
+      <soap:operation soapAction="http://tempuri.org/ILoaiSanPhamService/UpdateLoaiSanPham" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="DeleteLoaiSanPham">
+      <soap:operation soapAction="http://tempuri.org/ILoaiSanPhamService/DeleteLoaiSanPham" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="LoaiSanPhamService">
+    <wsdl:port name="BasicHttpBinding_ILoaiSanPhamService" binding="tns:BasicHttpBinding_ILoaiSanPhamService">
+      <soap:address location="http://localhost:8733/Design_Time_Addresses/WcfServiceLibrary/LoaiSanPhamService/" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

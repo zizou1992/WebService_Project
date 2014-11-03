@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c6a6b96ee708427da575949131459e04" Name="Diagram1">
+        <EntityTypeShape EntityType="TMobileDBModel.ChiTietDonHangEntity" Width="1.5" PointX="5.25" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TMobileDBModel.ChiTietPhieuNhapEntity" Width="1.5" PointX="8.25" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TMobileDBModel.ChucVuEntity" Width="1.5" PointX="1.5" PointY="21.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TMobileDBModel.DonDatHangEntity" Width="1.5" PointX="3" PointY="15.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TMobileDBModel.LoaiSanPhamEntity" Width="1.5" PointX="0.75" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="TMobileDBModel.Menu" Width="1.5" PointX="5.75" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TMobileDBModel.NhaCungCapEntity" Width="1.5" PointX="3.75" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="TMobileDBModel.NhanVienEntity" Width="1.5" PointX="0.75" PointY="12.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="TMobileDBModel.NhaSanXuatEntity" Width="1.5" PointX="0.75" PointY="3.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="TMobileDBModel.PhieuNhapEntity" Width="1.5" PointX="6" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TMobileDBModel.SanPhamEntity" Width="1.5" PointX="3" PointY="4.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="TMobileDBModel.sysdiagrams" Width="1.5" PointX="7.75" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TMobileDBModel.TuVanEntity" Width="1.5" PointX="8.75" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="TMobileDBModel.TrangThaiHoaDonEntity" Width="1.5" PointX="0.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="TMobileDBModel.UserEntity" Width="1.5" PointX="0.75" PointY="24.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="TMobileDBModel.TonKhoEntity" Width="1.5" PointX="5.25" PointY="12.75" IsExpanded="true" />
+        <AssociationConnector Association="TMobileDBModel.FK_ChiTietDonHang_DonDatHang" ManuallyRouted="false" />
+        <AssociationConnector Association="TMobileDBModel.FK_ChiTietDonHang_SanPham" ManuallyRouted="false" />
+        <AssociationConnector Association="TMobileDBModel.FK_ChiTietPhieuNhap_PhieuNhap" ManuallyRouted="false" />
+        <AssociationConnector Association="TMobileDBModel.FK_ChiTietPhieuNhap_SanPham" ManuallyRouted="false" />
+        <AssociationConnector Association="TMobileDBModel.FK_NhanVien_ChucVu" ManuallyRouted="false" />
+        <AssociationConnector Association="TMobileDBModel.FK_DonDatHang_NhanVien" ManuallyRouted="false" />
+        <AssociationConnector Association="TMobileDBModel.FK_DonDatHang_TrangThaiHoaDon" ManuallyRouted="false" />
+        <AssociationConnector Association="TMobileDBModel.FK_DonDatHang_User" ManuallyRouted="false" />
+        <AssociationConnector Association="TMobileDBModel.FK_SanPham_LoaiSanPham" ManuallyRouted="false" />
+        <AssociationConnector Association="TMobileDBModel.FK_PhieuNhap_NhaCungCap" ManuallyRouted="false" />
+        <AssociationConnector Association="TMobileDBModel.FK_PhieuNhap_NhanVien" ManuallyRouted="false" />
+        <AssociationConnector Association="TMobileDBModel.FK_SanPham_NhaSanXuat" ManuallyRouted="false" />
+        <AssociationConnector Association="TMobileDBModel.FK_TonKho_SanPham" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
